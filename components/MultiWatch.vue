@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const count = ref(0);
 const count2 = ref(0);
-watch(count, (newVal, oldVal) => {
+watch(count, () => {
   console.log('MultiWatch', 'count', count.value, 'count2', count2.value);
 });
 const onClick = () => {

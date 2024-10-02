@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const count = ref(0);
-watch(count, (newVal, oldVal) => {
+watch(count, () => {
   console.log('Watch', 'count', count.value);
 });
 const onClick = () => {

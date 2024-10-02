@@ -2,7 +2,7 @@
 const count = ref(0);
 watch(
   count,
-  (newVal, oldVal) => {
+  () => {
     console.log('WatchImmediate', 'count', count.value);
   },
   {

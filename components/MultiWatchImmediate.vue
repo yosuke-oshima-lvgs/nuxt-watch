@@ -3,7 +3,7 @@ const count = ref(0);
 const count2 = ref(0);
 watch(
   count,
-  (newVal, oldVal) => {
+  () => {
     console.log(
       'MultiWatchImmediate',
       'count',
