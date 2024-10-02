@@ -21,5 +21,16 @@
     <hr />
     <MultiWatchEffect />
     <hr />
+
+    <h1>Async</h1>
+    <p>1つの変数を監視して非同期で処理する</p>
+    <AsyncComputed />
+    <hr />
+    <AsyncWatch />
+    <hr />
+    <AsyncWatchImmediate />
+    <hr />
+    <AsyncWatchEffect />
+    <hr />
   </div>
 </template>
