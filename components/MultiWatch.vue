@@ -13,6 +13,10 @@ const onClick2 = () => {
 const onClick3 = () => {
   count.value = count.value;
 };
+const onClick4 = () => {
+  count.value++;
+  count.value--;
+};
 </script>
 
 <template>
@@ -23,5 +27,6 @@ const onClick3 = () => {
     <button @click="onClick">count1 Increment</button>
     <button @click="onClick2">count2 Increment</button>
     <button @click="onClick3">count1 Same</button>
+    <button @click="onClick4">count1 Increment and Decrement</button>
   </div>
 </template>
